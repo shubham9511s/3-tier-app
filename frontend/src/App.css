@@ -1,0 +1,17 @@
+.container{
+  background-color: white;
+  height: 640px;
+  width: 950px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.print{
+  background-color: rgb(114, 153, 227);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
