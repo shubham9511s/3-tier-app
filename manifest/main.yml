@@ -84,7 +84,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: shubhamshinde2025/backend:latest
+        image: shubhamshinde2025/backend:replaceImageTag2
         ports:
         - containerPort: 5000
         env:
