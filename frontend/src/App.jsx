@@ -9,7 +9,7 @@ function App() {
   const [list, setList] = useState([]);
 
   useEffect(()=>{
-    axios.get('http://16.16.79.84:5000/get')
+    axios.get('http://34.125.159.77:5000/get')
     .then(result => setList(result.data))
     .catch(err =>console.log(err))
 
@@ -17,7 +17,7 @@ function App() {
 
   function handlesubmit(e) {
     e.preventDefault();
-    axios.post('http://16.16.79.84:5000/add',{data: data})
+    axios.post('http://34.125.159.77:5000/add',{data: data})
     .then(result =>console.log(result))
     .catch(err =>console.log(err))
     console.log("Data save into database");
